@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.howtodoinjava.demo.TestEmployeeController
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.964 s <<< FAILURE! - in com.howtodoinjava.demo.TestEmployeeController
+testGetEmployeeListSuccess(com.howtodoinjava.demo.TestEmployeeController)  Time elapsed: 3.964 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8081/employees/": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at com.howtodoinjava.demo.TestEmployeeController.testGetEmployeeListSuccess(TestEmployeeController.java:22)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.howtodoinjava.demo.TestEmployeeController.testGetEmployeeListSuccess(TestEmployeeController.java:22)
+
